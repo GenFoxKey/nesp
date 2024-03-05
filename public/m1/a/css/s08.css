@@ -1,7 +1,11 @@
 #important {
-    color: blue;
+    color: rgb(25, 136, 192);
 }
 
 .remarkable {
-    color: green;
+    color: rgb(99, 60, 205);
+}
+
+#color{
+    color: darkgreen;
 }
