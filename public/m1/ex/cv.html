@@ -111,8 +111,55 @@
                     <small>Esempio: 123 456 7890</small>
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="form-button">Invia</button>
+                    <label for="project_name" class="form-label">Nome del progetto:</label>
+                    <input type="password" id="project_name" name="project_name" class="form-input" required>
                 </div>
+                <div class="form-group">
+                    <label for="start_date" class="form-label">Data di inizio:</label>
+                    <input type="date" id="start_date" name="start_date" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="end_date" class="form-label">Data di fine:</label>
+                    <input type="date" id="end_date" name="end_date" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="salary" class="form-label">Salario offerto (in Euro):</label>
+                    <input type="number" id="salary" name="salary" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="experience" class="form-label">Livello di esperienza richiesta:</label>
+                    <select id="experience" name="experience" class="form-input" required>
+                        <option value="entry">Entry Level</option>
+                        <option value="medium">Medium Level</option>
+                        <option value="high">Hight Level</option>
+                    </select>
+                </div>
+
+                <fieldset>
+                    <legend>Ruolo Richiesto:</legend>
+                    <div><label><input type="radio" name="fav" value="Capo Progetto">Capo Progetto</label></div>
+                    <div><label><input type="radio" name="fav" value="Sviluppatore Front-end">Sviluppatore
+                            Front-end</label></div>
+                    <div><label><input type="radio" name="fav" value="Sviluppatore Back-end" checked>Sviluppatore
+                            Back-end</label></div>
+                </fieldset>
+        </div>
+
+        <div class="form-group">
+            <fieldset>
+                <legend>Benefit Offerti:</legend>
+                <label><input type="checkbox" name="lang" value="Ticket" checked>Ticket buoni pasto</label>
+                <label><input type="checkbox" name="lang" value="telefono">Telefono aziendale</label>
+                <label><input type="checkbox" name="lang" value="Coupon Amazon">Coupon Amazon</label>
+            </fieldset>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="form-button">Invia</button>
+        </div>
+        <div class="form-group">
+            <button type="reset" class="form-button">Cancella</button>
+        </div>
+        <div class="form-group">
             </form>
         </div>
     </div>
