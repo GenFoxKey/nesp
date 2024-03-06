@@ -25,3 +25,58 @@ h1 {
     color: rgb(0, 0, 0) !important;
     background-color: rgb(255, 255, 255) !important;
 }
+
+.section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #333;
+}
+
+caption {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.table-caption {
+    font-family: 'Arial', sans-serif;
+    font-size: large;
+    color: #b1680f;
+}
+
+table {
+    margin-top: 15px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    font-family: 'Arial', sans-serif;
+}
+
+th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    background-color: #b1680f;
+    color: #fff;
+}
+
+td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    background-color: #ffe4b3;
+    color: #333;
+}
+
+.hometown {
+    margin: 0;
+    font-size: large;
+    color: #FF5733 !important;
+    background-color: rgb(255, 255, 255) !important;
+
+}
