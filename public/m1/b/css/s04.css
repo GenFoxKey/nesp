@@ -1,11 +1,12 @@
 /* rule for the "body" element */
 body {
-    background-color: gray;
+    background-color: rgb(148, 194, 230);
 }
 
 /* rule for the "p" elements */
 p {
     font-family: cursive;
+    background-color: #6992eb
 }
 
 /* rule for classified elements */

@@ -7,7 +7,7 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 20px;
-    background-color: rgb(188, 216, 249);
+    background-color: rgb(255, 255, 255) !important;
 }
 
 h1 {
@@ -16,12 +16,12 @@ h1 {
 }
 
 .section h2 {
-    color: #a6702f;
+    color: #b1680f;
 }
 
 .section p {
     margin: 0;
     font-size: large;
-    color: rgb(0, 0, 255);
-    background-color: rgb(166, 195, 228);
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(255, 255, 255) !important;
 }
